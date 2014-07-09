@@ -44,9 +44,7 @@ open NORMALISED, ">normal_output.txt" or die $!;
 print STDOUT "\nPlease wait while text is normalised...\n";
 while (<NONNORM>) {
 	
-	#s/@\w.+\b//g;  # substitutes @ symbol given that number of emails is very low.
 	s/\bRT\b//g; #removes RT symbol
-	#s/ \#/ /g; to keep it or not to keep it? This is the question.
 	s/\bhttp:\/\/.+\b//g; #removes links with word ancor boundaries
 	s/\bhtt.+\b//g;	
 	s/\b@\b/at/g; #substitutes remaining @s with the correct preposition assuming that's the only use
@@ -89,7 +87,7 @@ while (<NONNORM>) {
 	s/\bwats\b/what's/ig;
 	s/\bwot\b/what/ig;
 	s/\bdis\b/this/ig;
-	#$input =~ s/ 4 / for /ig; #very dangerous but statistically appropriate
+	s/ 4 / for /ig; #very dangerous but statistically appropriate
 	s/\basap\b/as soon as possible/ig;
 	s/\bafk\b/away from the keyboard/ig;
 	s/\btho\b/though/ig;
@@ -134,7 +132,7 @@ while (<NONNORM>) {
 	s/\bi\b/I/g;
 	s/\br\b/are/ig;
 	s/\bu r\b/you are/ig;
-	#$input =~ s/ ur / your /ig; ambiguous. some users refer to 'you are', some others to 'your'.
+	s/ ur / your /ig; #ambiguous. some users refer to 'you are', some others to 'your'.
 	s/\burs\b/yours/ig;
 	s/\bdat\b/that/ig;
 		
