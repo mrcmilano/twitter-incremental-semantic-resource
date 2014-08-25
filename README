@@ -4,7 +4,7 @@ This repo contains work I've done for my MSc in Cognitive Science at the Univers
 My research project involved processing Twitter public feeds to construct and update a semantic resource in order to perform event-detection by identifying relevant changes in the cosine measure used
 to evaluate semantic similarity between collected words.
 
-The intuition that motivated the project was that tweets regarding one specific event would see very few keywords used to report of such event and that these would be trending. Looking at trends, though, would be too trivial, as Twitter itself implements text processing algorithms to estimate the relevance of the ongoing chit chat. What we did, instead, was building a time-sensitive incremental semantic resource that would see word pairs semantic similarity shift as result of some important event happening in the world.
+The intuition that motivated the project was that tweets regarding one specific event would see very few keywords used to report of such event and that these would be trending. As Twitter itself implements text processing algorithms to estimate the relevance of the ongoing chit chat, what we did was instead building a time-sensitive incremental semantic resource that would see word pairs semantic similarity shift as result of some important event happening in the world.
 Once a baseline cosine measure is built for most word pairs, this is then used as benchmark against which to compare any further generated word pair cosine value. 
 
 A summary of my Thesis is given in the ThesisSummary.pdf document, along with a brief technical explanation of the particular matrix reduction technique that was used to handle the large Twitter dataset and that 
