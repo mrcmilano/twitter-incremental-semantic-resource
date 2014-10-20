@@ -1,21 +1,12 @@
 README
 
-This repo contains work I've done for my MSc in Cognitive Science at the University of Trento in 2011.
-My research project involved processing Twitter public feeds to construct and update a semantic resource in order to perform event-detection by identifying relevant changes in the cosine measure used
-to evaluate semantic similarity between collected words.
+This repo contains work I've done for my Master's course in Cognitive Science.
+My research project involved processing Twitter's public feeds to construct and update a semantic resource to evaluate semantic similarity between collected words.
 
-The intuition that motivated the project was that tweets regarding one specific event would see very few keywords used to report of such event and that these would be trending. As Twitter itself implements text processing algorithms to estimate the relevance of the ongoing chit chat, what we did was instead building a time-sensitive incremental semantic resource that would see word pairs semantic similarity shift as result of some important event happening in the world.
-Once a baseline cosine measure is built for most word pairs, this is then used as benchmark against which to compare any further generated word pair cosine value. 
+An initial exploratory analysis led to the intuition that tweets regarding one specific event would see very few keywords used to report of such event and that these would appear more and more frequently together. Event-detection then the project's goal.
 
-A summary of my Thesis is given in the ThesisSummary.pdf document, along with a brief technical explanation of the particular matrix reduction technique that was used to handle the large Twitter dataset and that 
-played a crucial role in making the semantic resource incremental, thus sensitive to changes
-over time -i.e., random indexing. 
-
-Please refer to the above mentioned document for all the references to Fabio Celli (http://clic.cimec.unitn.it/fabio) and Marco Baroni (http://clic.cimec.unitn.it/marco) and their works on language identification and semantic processing, respectively.
-
-
-
-At the moment, in this repo you can find 4 Perl scripts all relating to the pre-processing of tweets, as I'm planning to clean and upload the main script for semantics processing. 
+A summary of my Thesis is given in the ThesisSummary.pdf document.
+I've uploaded 4 Perl scripts relating to the pre-processing of tweets.
 
 
 
