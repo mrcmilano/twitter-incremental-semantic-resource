@@ -22,14 +22,12 @@ in the same directory from which this script was launched:
 
 
 ***********CREDITS***********
-Program written by Marco Milano - University of Trento, Italy. 
 Thanks to Fabio Celli (fabio.celli\@unitn.it) for his language identification script: 'SLIde'.
 Thanks to Ama\xc3\xa7 Herdagdelen (amac\@herdagdelen.com) for his support and in particularly:
 for having downloaded and made available a reliable Twitter corpus.
 
 WARNING: TWITTER USERS AREN'T AUTOMATICALLY FILTERED OUT. YOU MUST COMPLY WITH THIS REQUEST FROM TWITTER.
 
-Copyright 2011 Marco Milano\xc2\xa9 & Universit\xc3\xa0 Degli Studi Di Trento\xc2\xae .
 You can use, modify and redistribute the program as you like but please cite the authors.
 *****************************
 ------------------------------------------
