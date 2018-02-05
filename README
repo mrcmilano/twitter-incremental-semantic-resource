@@ -1,13 +1,7 @@
 README
 
-This repo contains work I've done for my Master's course in Cognitive Science.
-My research project involved processing Twitter's public feeds to construct and update a semantic resource to evaluate semantic similarity between collected words.
-
-An initial exploratory analysis led to the intuition that tweets regarding one specific event would see very few keywords used to report of such event and that these would appear more and more frequently together. Event-detection then the project's goal.
-
-A summary of my Thesis is given in the ThesisSummary.pdf document.
-I've uploaded 4 Perl scripts relating to the pre-processing of tweets.
-
+This repo contains snippets from code that I developed when working on my Master's Thesis.
+My research aimed at processing Twitter's public feeds to construct and update a semantic resource with the goal of performing unsupervised event-detection without using machine learning.
 
 
 
